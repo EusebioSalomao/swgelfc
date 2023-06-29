@@ -1,0 +1,28 @@
+<div class="conteiner">
+    <div class="row m-0">
+        <div class="col-9 text-center p-2 m-0">
+            <h2 class="m-0 bg-secondary p-4 text-light" > {{pauta.turma.codigo}}: {{pauta.classe.designacao}} - {{pauta.curso.descricao}} </h2>
+
+        </div>
+        <div class="col-3 text-center m-0 p-2">
+            <h2 class="mark p-1 m-0 text-secondary" >Pautas Trimestrais</h2>
+        </div>
+    </div>
+</div>
+<hr>
+<div class="container">
+    <div class="row text-center h2 mark">PRIMEIRO TRIMESTRE</div>
+    <table>
+        <thead>
+            Cabeçalio
+        </thead>
+        <tbody>
+            <tr>{{#each notasDisciplinasTurma}}<td> {{nomeDisciplina}} </td>{{else}}{{/each}}</tr>
+            {{#each notasDisciplinasTurma}}
+            <tr> <td> {{alunos.nome}} </td> </tr>
+            {{else}}
+            {{/each}}
+        </tbody>
+    </table>
+</div>
+

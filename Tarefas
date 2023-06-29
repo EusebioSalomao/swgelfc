@@ -1,0 +1,13 @@
+Definir por meio do genero a função professora e administrativa para mulheres
+Editar funcionario
+Eliminar funcionario
+Carregar arquivos (fotos de alunos e funcionareis)
+Carregar arquivos (Certificados e comprovativos )
+Aumentar os tamanhos das modais
+Evitar que a adição de professores seja feita sem selecionar o nome do professor e a disciplina
+Evitar que dois professores da mesma turma recebem a mesma disciplina
+Velar para que a nota lançada não seja menor que zero ou maior que 20
+Calcular automaticamente as médias MAC e trimestral da minipauta do professor
+Configurações do do perfil do professor
+Encerrar ano Lectivo, verificando todas condiçoes necessárias
+Garantir que na ausencia de uma nota de avaliação seja somado por zero e ter a média das tres
